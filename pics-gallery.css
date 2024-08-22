@@ -1,0 +1,421 @@
+#current {
+  background-color: #fff;
+  color: black;
+}
+u {
+  background: transparent;
+}
+* {
+  background-color: #0b0c10;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #0b0c10;
+}
+.album-text {
+  margin-top: 2%;
+}
+.ext {
+  display: none;
+  color: #0b0c10;
+  text-decoration: none;
+  border: none;
+}
+::selection {
+  background-color: #fff;
+  color: blue;
+}
+option,
+select {
+  color: white;
+}
+input {
+  width: 70%;
+  color: white;
+  background-color: 0b0c10;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #66fcf1;
+  margin-right: 0px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-bottom: -0.9rem;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+input:focus {
+  width: 90%;
+}
+recents {
+  font-size: 32pt;
+  color: #66fcf1;
+  font-family: monospace;
+}
+.navbar {
+  font-size: 18px;
+  border: 1px solid #66fcf1;
+  padding-bottom: 10px;
+  margin-top: -15px;
+  margin-left: -5%;
+  width: 110%;
+  height: 20%;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: monospace, "Lato", sans-serif;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+@media screen and (min-width: 1030px) {
+  #myPicture {
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+  }
+}
+a {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+h1:visited {
+  color: white;
+}
+
+label {
+  color: #66fcf1;
+  font-family: monospace;
+}
+.numberOfPics {
+  color: #66fcf1;
+  font-family: monospace, sans-serif;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  padding: 1rem;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+/* First the Grid */
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  padding: 0.3rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #1f2833;
+  color: #d9d9d9;
+}
+
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+figcaption {
+  background: #404c5a;
+  color: #45a29e;
+}
+.dropbtn {
+  background-color: transparent;
+  color: #ffffffb3;
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  margin-left: 25%;
+  margin-top: 0.5rem;
+  font-family: monospace;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  width: 130px;
+  position: absolute;
+  background-color: #000;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #ffffffb3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: monospace;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+  color: black;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+input {
+  margin-left: 10px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .navbar {
+    width: 104%;
+    height: 13%;
+    margin-left: -2%;
+  }
+}
+@media screen and (device-height: 360px) and (device-width: 667px) and (orientation: landscape) {
+  .navbar {
+    height: 38%;
+  }
+  .navbar-toggle {
+    margin-top: 0%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .fas {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-left: -1%;
+    width: 102%;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+    padding: 15px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .nav-links:hover {
+    color: #000;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navbar {
+    width: 110%;
+    margin-left: -5%;
+    height: 15%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navbar {
+    height: 17%;
+  }
+}
+@media screen and (max-width: 361px) {
+  .navbar {
+    height: 17%;
+  }
+}
+.footer {
+  color: white;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  width: 99%;
+  top: 9rem;
+  height: 5.5rem;
+}
+footer {
+  font-size: small;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #45a29e;
+  outline: 0px solid slategrey;
+  border-radius: 10px;
+}
+/* The side navigation menu */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1f2833; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #45a19e;
+  display: block;
+  transition: 0.3s;
+  font-family: monospace;
+  background: transparent;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#li {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

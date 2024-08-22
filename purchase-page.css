@@ -1,0 +1,645 @@
+#current {
+  background-color: #fff;
+  color: black;
+}
+.nav-links::after, .logo::after, .drop-txt::after {
+  content: none;
+}
+
+u {
+  background: transparent;
+}
+@font-face {
+  font-family: "Tesla";
+  src: url("TESLA.ttf") format("truetype");
+}
+body {
+  background-color: #0b0c10;
+}
+.hover-pic {
+  border-radius: 30px;
+  animation: fadeIn ease 0.8s;
+  -webkit-animation: fadeIn ease 0.8s;
+  -moz-animation: fadeIn ease 0.8s;
+  -o-animation: fadeIn ease 0.8s;
+  -ms-animation: fadeIn ease 0.8s;
+  margin-left: 25%;
+}
+#header-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1900px) {
+  .hoverPic {
+      margin-top: -130%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hoverPic {
+    margin-top: -390%;
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .hoverPic {
+    margin-top: -520%;
+    margin-left: 50%;
+  }
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+​
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+#flex-item {
+  flex-direction: column;
+}
+.header {
+  color: #45a29a;
+}
+title {
+  font-family: Tesla;
+}
+::selection {
+  background-color: #fff;
+  color: blue;
+}
+.keagan-bday-background {
+  background-image: url("birthday\ keagan\(2\).jpg");
+}
+
+.pi-day {
+  background-image: url("pi-day.jpg");
+}
+.seven-forty-seven {
+  background-image: url("747.jpg");
+}
+.eleven-eleven {
+  background-image: url("eleven-eleven.jpg");
+}
+
+input {
+  width: 70%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #66fcf1;
+  margin-right: 0px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+input:focus {
+  width: 90%;
+}
+.navbar {
+  font-size: 18px;
+  border: 1px solid #66fcf1;
+  padding-bottom: 10px;
+  width: 105%;
+  margin-left: -2.5%;
+  margin-top: -3%;
+}
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: monospace, "Lato", sans-serif;
+}
+
+i {
+  position: relative;
+  left: 1%;
+  top: -1.5rem;
+}
+.recent {
+  list-style-position: inside;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.fas {
+  margin-top: -25%;
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10rem;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+#header {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 105px;
+  line-height: 1.5;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: #ffffffb3;
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  margin-left: 25%;
+  margin-top: 0.5rem;
+  font-family: monospace;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  width: 130px;
+  position: absolute;
+  background-color: #000;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #ffffffb3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: monospace;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+  color: black;
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  width: 100%;
+}
+
+.flex-item-left {
+  background-color: #45a29e;
+  padding: 10px;
+  flex: 50%;
+  box-shadow: 12px 12px 12px 12px #000;
+  border-radius: 30px;
+  height: 40rem;
+  margin: 1%;
+  height: 50rem;
+  margin-top: -14%;
+  max-height: 50rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.flex-item-left::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+.flex-item-left::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-item-left::-webkit-scrollbar-thumb {
+  background-color: #1f2833;
+  outline: 0px solid #1f2833;
+  border-radius: 10px;
+}
+.flex-item-left::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flex-item-center {
+  background-color: #1f2833;
+  padding: 10px;
+  flex: 50%;
+  box-shadow: 12px 12px 12px 12px #000;
+  border-radius: 30px;
+  margin: 1%;
+  height: 37rem;
+  margin-top: -3%;
+  max-height: 37rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.flex-item-center::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flex-item-center::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+.flex-item-center::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-item-center::-webkit-scrollbar-thumb {
+  background-color: #45a29e;
+  outline: 0px solid #1f2833;
+  border-radius: 10px;
+}
+.flex-item-right {
+  background-color: #45a29e;
+  padding: 10px;
+  flex: 50%;
+  box-shadow: 12px 12px 12px 12px #000;
+  border-radius: 30px;
+  margin: 1%;
+  height: 50rem;
+  margin-top: -14%;
+  max-height: 50rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.flex-item-right::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flex-item-right::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+.flex-item-right::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-item-right::-webkit-scrollbar-thumb {
+  background-color: #1f2833;
+  outline: 0px solid #1f2833;
+  border-radius: 10px;
+}
+.box {
+  margin-top: -10%;
+  border: 1px solid green;
+  background-color: #45a29e;
+  margin-left: 1.5%;
+  width: 30%;
+  height: 75%;
+  border-radius: 30px;
+  box-shadow: 12px 12px 12px 12px #000;
+}
+.pic {
+  list-style-image: url("multiple-image-ico.png");
+}
+.blog {
+  list-style-position: inside;
+  list-style-image: url("blog-icon.png");
+}
+.changelog {
+  list-style-image: url("changelog-icon.png");
+}
+.projects {
+  list-style-image: url("project-icon.png");
+}
+boxtitle0 {
+  font-size: 32pt;
+  font-family: monospace;
+  color: #1f2833;
+}
+.click-rec,
+boxtext0 {
+  font-family: monospace;
+  color: #1f2833;
+}
+boxtitle1 {
+  font-size: 32pt;
+  font-family: monospace;
+  color: #45a29e;
+}
+boxtext1 {
+  font-family: monospace;
+  color: #45a29e;
+}
+
+@media screen and (max-width: 1430px) {
+  #header {
+    font-size: 55pt;
+  }
+}
+@media (max-width: 1060px) {
+  .flex-container {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .flex-item-left {
+    background-color: #45a29e;
+    padding: 2%;
+    flex: 50%;
+    box-shadow: 12px 12px 12px 12px #000;
+    border-radius: 30px;
+    margin: 1%;
+    height: 50px;
+    margin-bottom: 5%;
+  }
+  .flex-item-center {
+    background-color: #1f2833;
+    padding: 2%;
+    flex: 50%;
+    box-shadow: 12px 12px 12px 12px #000;
+    border-radius: 30px;
+    margin: 1%;
+    margin-top: 0%;
+    margin-bottom: 55%;
+  }
+  .flex-item-right {
+    background-color: #45a29e;
+    padding: 2%;
+    flex: 50%;
+    box-shadow: 12px 12px 12px 12px #000;
+    border-radius: 30px;
+    margin: 1%;
+    height: 50rem;
+    margin-top: -50%;
+    margin-bottom: 5%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+.floating-label-input {
+  --margin: 1em;
+  /* 5 */
+  --half-margin: calc(var(--margin) / 2);
+  /* 4 */
+  position: relative;
+  /* 1 */
+  color: blue;
+  font-family: Tesla;
+}
+
+.floating-label-input input {
+  margin-top: var(--margin);
+  /* 4 */
+}
+
+.floating-label-input label {
+  position: absolute;
+  /* 1 */
+  top: calc(50% + var(--half-margin));
+  /* 2, 3, 4 */
+  left: 0.5em;
+  /* 2, 3 */
+  transform: translateY(-50%);
+  /* 2, 3 */
+  transition: all 0.5s;
+  /* 3 */
+}
+
+/* 0 */
+
+.floating-label-input input:focus + label {
+  top: calc(var(--half-margin) * -1);
+  /* 3, 4 */
+  left: 0;
+  /* 3 */
+  transform: translateY(0);
+  /* 3 */
+}
+input {
+  margin-left: 10px;
+}
+@media screen and (max-width: 1521px) and (min-width: 1510px) {
+  button {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: -1%;
+    width: 102%;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+    padding: 15px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .nav-links:hover {
+    color: #000;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 420px) and (min-width: 401px) {
+  i {
+    top: -1rem;
+    left: 0.4rem;
+  }
+  .navbar {
+    width: 112%;
+    margin-left: -6.5%;
+    margin-top: -6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  i {
+    top: -0.1rem;
+    left: 0.2rem;
+  }
+  .navbar {
+    width: 112%;
+    margin-left: -6.5%;
+    margin-top: -6%;
+  }
+}
+@media screen and (max-width: 376px) {
+  i {
+    top: -0.5rem;
+    left: 0.2rem;
+  }
+  .width {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 361px) {
+  i {
+    top: -0.5rem;
+  }
+  .width {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 321px) {
+  i {
+    top: -0.2rem;
+  }
+  .width {
+    font-size: 23px;
+  }
+}
+/*
+1.
+When the parent element is `position: relative` and his children are `position: absolute`,
+their absolute positioning is relative to their parent;
+
+2. I setted 
+*/
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #45a29e;
+  outline: 0px solid slategrey;
+  border-radius: 30px;
+}
+
+.footer {
+  color: white;
+  display: inline-block;
+  position: relative;
+  bottom: -5rem;
+  width: 99%;
+  height: 3.5rem;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #1f2833; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #45a19e;
+  display: block;
+  transition: 0.3s;
+  font-family: monospace;
+  background: transparent;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#li {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

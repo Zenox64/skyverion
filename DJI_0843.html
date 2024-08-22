@@ -1,0 +1,99 @@
+<html>            
+<head>            
+<title></title>            
+<meta name="viewport" content="width=device-width, initial-scale=1.0">            
+<link rel="preconnect" href="https://fonts.gstatic.com">            
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">            
+<script src="https://kit.fontawesome.com/aa9d3f27c6.js" crossorigin="anonymous"></script>            
+<link rel="shortcut icon" href="title icon transparent backgroud.png" />            
+<link rel="stylesheet" href="photo-template.css" />            
+<!-- Global site tag (gtag.js) - Google Analytics -->            
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0TPJ01CVND"></script>            
+<script>            
+window.dataLayer = window.dataLayer || [];            
+function gtag(){dataLayer.push(arguments);}            
+gtag('js', new Date());            
+gtag('config', 'G-0TPJ01CVND');            
+</script>            
+</head>            
+<body class="body">            
+<div id="page-container">            
+<div id="content-wrap">            
+<div class="gradient">            
+<nav class="navbar" id="navbar">            
+<span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav()">            
+<i class="fas fa-bars fa-3x" style="color: white;"></i>            
+</span>            
+<div id="mySidenav" class="sidenav">            
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>            
+<a href="index.html">home</a>            
+<a href="#5074300823" style="color: #fff;"><u>photos:</u></a>            
+<a href="pics.html" style="text-indent: 4%;">slideshow</a>            
+<a href="pics-gallery.html"  style="text-indent: 4%;" id="current">gallery</a>            
+<a href="blog.html">blog</a>            
+<a href="changelog.html">changelog</a>            
+<a href="contact.html">contact</a>            
+</div>            
+<a href="index.html" class="logo" id="logo"                ><img src="keaganlueck.com(streampi).png" width="55px" height="55px"                /></a>            
+<ul class="main-nav" id="js-menu">            
+<li>            
+<a href="index.html" class="nav-links">home</a>            
+</li>            
+<li>            
+<div class="dropdown">            
+<button class="dropbtn" id="current">pics</button>            
+<div class="dropdown-content">            
+<a href="pics-gallery.html">Gallery</a>            
+<a href="pics.html">Slideshow</a>            
+</div>            
+</div>            
+</li>            
+<li>            
+<a href="blog.html" class="nav-links">blog</a>            
+</li>            
+<li>            
+<a href="changelog.html" class="nav-links">changelog</a>            
+</li>            
+<li>            
+<a href="blog.html" class="nav-links">contact</a>            
+</li>            
+</ul>            
+<form onsubmit="pressed(event)" id="form">            
+<div class="floating-label-input">            
+<input type="text" id="jr" autocapitalize="off" placeholder="Search..."/>            
+<label id="button" for="jr"></label>            
+<!-- Label MUST be after input! -->            
+</form>            
+</div>            
+</nav>            
+<recents id="imgNameHeader"></recents>            
+<div class="numberOfPics">            
+<p id="counter"></p>            
+</div>            
+<a href="#" onclick="goBack()" class="more"><< back</a>            
+<center>            
+<div class="flex-container">            
+<div class="flex-item-left">            
+<img src="DJI_0843.JPG" class="main-pic" id="imgName" title="hover to zoom">            
+<div class="description">            
+<p class="des-text"></p>            
+</div>            
+</div>            
+<div class="flex-item-right">            
+<center style="background-color:#45a29e;"><boxtitle0><b style="background-color:#45a29e;"><u>info</u></b></boxtitle0></center>            
+<boxtext0>This photo was taken on <a href="2024-06-30.html" >2024-06-30</a> with <a href="DJI Spark.html">DJI Spark</a></boxtext0>            
+<div class="button-parent"><a href="DJI_0843.JPG" download class="downloadBtn">click to save image</a></div>             
+</center>            
+</ul>            
+</div>            
+</div>            
+<div class="footer" id="footer">            
+<center>            
+<p class="footer-text">                &copy;            
+<script>                    document.write(new Date().getFullYear());                </script>                Keagan Lueck<br />                 User Interface - v2 Early Release                
+</p>            
+</center>            
+</div>            
+<script src="pics-gallery.js"></script>            
+</body>            
+</html>

@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <title>Skyverion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="sv-logo.PNG" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/aa9d3f27c6.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0TPJ01CVND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0TPJ01CVND');
+</script>
+  </head>
+  <link rel="preload" href="TESLA.ttf" as="font" crossorigin="anonymous" />
+<div class="page-wrap">
+  <body id="li" class="background-image">
+          <div id="page-container">
+      <div id="content-wrap">
+    <div class="gradient">
+      <nav class="navbar" id="navbar">
+          <span class="navbar-toggle" id="js-navbar-toggle" onclick="openNav()" style="position: absolute; top: 5%;">
+            <i class="fas fa-bars fa-3x" data-fa-transform="shrink-8 left-8" style="color: white;"></i>
+          </span>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" id="current">home</a>
+            <a href="purchase-page.html">purchase pictures</a>
+        </div>
+<!-- Use any element to open the sidenav -->
+        <a href="index.html" class="logo" id="logo"
+          ><img src="sv.GIF" width="55px" height="55px"
+        /></a>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="index.html" class="nav-links" id="current">home</a>
+          </li>
+          <li>
+            <a href="purchase-page.html" class="nav-links">purchase pictures</a>
+          </li>
+
+        </ul>
+
+            <form onsubmit="pressed(event)" id="form">
+      <div class="floating-label-input">
+        <input type="text" id="jr" autocapitalize="off" placeholder="Search..." autofocus=false/>
+        <label id="button" for="jr"></label>
+        <!-- Label MUST be after input! -->
+      </form>
+      </div>
+      </nav>
+    </div>
+      </div>
+     </div>
+    <!--<div id="test">-->
+    <h1 id="tesla"></h1>
+    <center><h1 class="header-title">SKYVERION</h1></center>
+    <div class="flex-container">
+        <div class="flex-item-left0">
+            <center>
+                <img src="clock.png" class="top-img" alt="Skyverion aerial photo">
+                <numberstat>10+</numberstat>
+                <description>hours of flight time</description>
+            </center>
+        </div>
+        <div class="flex-item-center0">
+            <center>
+                <img src="people-ico.png" class="top-img" alt="Skyverion aerial photo">
+                <numberstat>5k+</numberstat>
+                <description>total internet views</description>
+            </center>
+        </div>
+        <div class="flex-item-right0">
+            <center>
+                <img src="scene-ico.png" class="top-img" alt="Skyverion aerial photo">
+                <numberstat>60+</numberstat>
+                <description>unique events captured</description>
+            </center>
+        </div>
+    </div>
+    <center>
+        <h1 id="header" class="header" title="Calculates the windspeed to determine if it is good enough conditions to fly"></h1>
+        <h5 id="geoLoc" style="color: white;">Location Coordinates</h5>
+    </center>
+<div class="flex-container">
+  <div class="flex-item-left">
+    <center><boxtitle0><b>my work</b></boxtitle0></center>
+    <center><boxtitle0 id="catText">photo</boxtitle0></center>
+    <div id="header-container">
+    <boxtext0><br />
+      <button onclick="switchVid()" class="leftBtn"><</button>
+      <button onclick="switchPic()" class="rtBtn">></button>
+      <div id="photo" class="photo">
+          <img src="aerial-content/DJI_0238.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0025.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0116.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0122.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/Best Pic.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0011.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0337.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0354.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0402.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0195.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <img src="aerial-content/DJI_0359.JPG" width="100%" class="work-photo" alt="Skyverion aerial photo">
+          <p>If you want to see more of my work, contact me!</p>
+      </div>
+      <div id="video">
+        <video width="100%" controls class="work-video">
+          <source src="aerial-content/boat-follow.mp4" type="video/mp4" alt="Skyverion aerial video">
+          your browser does not support video
+        </video>
+        <video width="100%" controls class="work-video">
+          <source src="aerial-content/DJI_0099.MP4" type="video/mp4" alt="Skyverion aerial video">
+          your browser does not support video
+        </video>
+        <video width="100%" controls class="work-video">
+          <source src="aerial-content/4wheel-follow.mp4" type="video/mp4" alt="Skyverion aerial video">
+          your browser does not support video
+        </video>
+        <video width="100%" controls class="work-video">
+          <source src="aerial-content/house-destroy.mp4" type="video/mp4" alt="Skyverion aerial video">
+          your browser does not support video
+        </video>
+        <p>I have many more videos. If you would like to see more check out <a href="https://www.youtube.com/channel/UCSryYZdx1AA3AYjxbZklX4w">Keagan Lueck on YouTube</a> or contact me for non-uploaded videos.
+      </div>
+      <button onclick="switchVid()" class="leftBtn"><</button>
+      <button onclick="switchPic()" class="rtBtn">></button>
+    </boxtext0>
+    </div>
+  </div>
+  <div class="flex-item-center">
+    <center><boxtitle1><b>contact me</b></boxtitle1></center>
+    <div class="center-text">
+    <boxtext1><br /><ul class=""><li id="phone" onmouseover="copyTextHint()" onmouseleave="baseText()" onclick="copyText()">phone number: 218-464-0463</li></boxtext1>
+    <boxtext1><br /><li id="email" onmouseover="ecopyTextHint()" onmouseleave="ebaseText()" onclick="ecopyText()">email: keagan @ skyverion.com</li></boxtext1>
+    <boxtext1><br /><li id="mail" onmouseover="mcopyTextHint()" onmouseleave="mbaseText()" onclick="mcopyText()">mailing: 529 West 4th St Unit 1, Duluth, MN 55806</li></ul></boxtext1>
+    </div>
+  </div>
+    <div class="flex-item-right">
+    <center><boxtitle0><b>what can he do?</b></boxtitle0></center>
+    <div class="recent">
+    <boxtext0>Anything really, I am open to consider any requests. Some examples but not limited to are...</boxtext0>
+    <boxtext0><ul><li class="drone">Farmsite overview pictures</li></boxtext0>
+    <boxtext0><li class="drone">Store flythroughs</li></boxtext0>
+    <boxtext0><li class="drone">Group photos</li></boxtext0>
+    <boxtext0><li class="drone">Progression photos of set subject over time period</li></boxtext0>
+    <boxtext0><li class="drone">Real estate listings</li></boxtext0>
+    <boxtext0><li class="drone">Parade following</li></boxtext0>
+    <boxtext0><li class="drone">Following of moving subject</li></boxtext0>
+    <boxtext0><li class="drone">Weddings</li></boxtext0>
+    <boxtext0><li class="drone">Any picture or video from aerial view</li></boxtext0>
+    <boxtext0><li class="drone">Possibilities are only limited to your imagination!</li></boxtext0>
+    </ul>
+    </div>
+    </ul>
+    </div>
+</div>
+      <form onsubmit="pressed(event)">
+      <div class="floating-label-input"  id="backup" style="display: none;">
+        <input type="text" id="jr" autocapitalize="off" placeholder="Search..."/>
+        <label id="button" for="jr"><img src="" /></label>
+        <!-- Label MUST be after input! -->
+      </div>
+      </form>
+    <script src="aerial.js"></script>
+    <link rel="stylesheet" href="aerial.css" />
+    <div class="footer" id="footer">
+      <center>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Keagan Lueck <br />User Interface - v2 Early Release
+      </p>      
+      Powered by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a>
+      </center>
+    </div>
+  </div>
+    <!--</div>-->
+  </body>
+</html>
