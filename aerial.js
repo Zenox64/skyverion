@@ -83,7 +83,7 @@ function baseText() {
   style.fontWeight = "normal";
   style.fontStyle = "normal";
   style.color = "#45a29e";
-  phone.textContent = "phone number: 218-464-0463";
+  phone.textContent = "phone number: 507-430-0823";
 }
 function ebaseText() {
   estyle.fontWeight = "normal";
@@ -95,7 +95,7 @@ function mbaseText() {
   mstyle.fontWeight = "normal";
   mstyle.fontStyle = "normal";
   mstyle.color = "#45a29e";
-  mail.textContent = "mailing: 529 West 4th St Unit 1, Duluth, MN 55806";
+  mail.textContent = "mailing: P.O. Box 32, Morgan, MN 56266";
 }
 function copyTextHint() {
   style.fontWeight = "bold";
@@ -118,7 +118,7 @@ function mcopyTextHint() {
 function copyText() {
   style.fontWeight = "normal";
   style.fontStyle = "italic";
-  navigator.clipboard.writeText("218-464-0463");
+  navigator.clipboard.writeText("507-430-0823");
   phone.textContent = "COPIED";
 }
 function ecopyText() {
@@ -131,7 +131,7 @@ function mcopyText() {
   mail.textContent = "COPIED";
   mstyle.fontWeight = "normal";
   mstyle.fontStyle = "italic";
-  navigator.clipboard.writeText("529 West 4th St Unit 1, Duluth, MN 55806");
+  navigator.clipboard.writeText("P.O. Box 32, Morgan, MN 56266");
 }
 // getCurrentPosition: Successful return
 //If location is not allowed
