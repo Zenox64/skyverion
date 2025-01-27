@@ -194,54 +194,6 @@ function getPosSuccess(pos) {
         "sm-ct",
         "semi",
       ];
-      //my bday wallpaper
-      var now = new Date();
-      let keaganbday = new Date("July 15");
-      console.log(now);
-
-      if (
-        now.getMonth() === keaganbday.getMonth() &&
-        now.getDate() === keaganbday.getDate()
-      ) {
-        console.log(now);
-        document.body.classList.add("keagan-bday-background");
-        sneak.innerHTML = "Happy Birthday Keagan!!!";
-      }
-      //special pi day wallpaper
-      var now = new Date();
-      let piday = new Date("March 14");
-
-      if (
-        now.getMonth() === piday.getMonth() &&
-        now.getDate() === piday.getDate()
-      ) {
-        document.body.classList.add("pi-day");
-        sneak.innerHTML = "Happy Pi Day!";
-      }
-      //747
-      var now = new Date();
-      if (
-        (now.getHours() === 19 || now.getHours() === 7) &&
-        now.getMinutes() === 47
-      ) {
-        document.body.classList.add("seven-forty-seven");
-      }
-      //11:11
-      var now = new Date();
-      if (
-        (now.getHours() === 23 || now.getHours() === 11) &&
-        now.getMinutes() === 11
-      ) {
-        document.body.classList.add("eleven-eleven");
-      }
-
-      jr.addEventListener("keypress", function (e) {
-        const key = e.keyCode || e.which;
-
-        if (key === 13) {
-          pressed(e);
-        }
-      });
       window.onload = function () {
         document.getElementById("jr").focus();
       };
